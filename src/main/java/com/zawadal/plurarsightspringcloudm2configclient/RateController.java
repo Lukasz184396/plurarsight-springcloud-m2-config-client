@@ -12,10 +12,10 @@ public class RateController {
     @Value("${rate}")
     String rate;
 
-//    @Value("${lanecount}")
+    @Value("${lanecount}")
     String lanecount;
 
-//    @Value("${tollstart}")
+    @Value("${tollstart}")
     String tollstart;
 
     @RequestMapping("/rate")
